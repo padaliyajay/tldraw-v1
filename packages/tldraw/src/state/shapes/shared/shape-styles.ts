@@ -71,9 +71,9 @@ export const fills: Record<Theme, Record<ColorStyle, string>> = {
 }
 
 const strokeWidths = {
-  [SizeStyle.Small]: 0.5,
-  [SizeStyle.Medium]: 1.5,
-  [SizeStyle.Large]: 3,
+  [SizeStyle.Small]: 0.25,
+  [SizeStyle.Medium]: 0.5,
+  [SizeStyle.Large]: 1,
 }
 
 const fontSizes = {
