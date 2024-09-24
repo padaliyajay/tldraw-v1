@@ -131,8 +131,8 @@ export class DrawUtil extends TDShapeUtil<T, E> {
       const strokeDasharray = {
         [DashStyle.Draw]: 'none',
         [DashStyle.Solid]: `none`,
-        [DashStyle.Dotted]: `0.1 ${strokeWidth * 4}`,
-        [DashStyle.Dashed]: `${strokeWidth * 4} ${strokeWidth * 4}`,
+        [DashStyle.Dotted]: `0.1 ${strokeWidth * 8}`,
+        [DashStyle.Dashed]: `${strokeWidth * 8} ${strokeWidth * 8}`,
       }[style.dash as DashStyle]
 
       const strokeDashoffset = {
